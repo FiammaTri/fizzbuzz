@@ -16,9 +16,9 @@ public class fizz {
 		
 		for(num=0; num<=50; num++) { 						//Apro la condizione e il ciclo; aumenta num di 1 fino a raggiungere 50
 			
-			if (num%3==0 && num%5==0) {System.out.println("FizzBuzz"); // se il resto della divisione per 3 E 5 è 0 stampa FizzBuzz
-			} else if (num%3==0) {System.out.println("Fizz");   // se il resto della divisione per 3 è 0 stampa Fizz
-			} else if (num%5==0) {System.out.println("Buzz");   // se il resto della divisione per 5 è 0 stampa Buzz
+			if (num%3==0 && num%5==0) {System.out.println("PariDispari"); // se il resto della divisione per 3 E 5 è 0 stampa FizzBuzz
+			} else if (num%3==0) {System.out.println("Pari");   // se il resto della divisione per 3 è 0 stampa Fizz
+			} else if (num%5==0) {System.out.println("Dispari");   // se il resto della divisione per 5 è 0 stampa Buzz
 			} else {System.out.println(num); // se il resto della divisione è diverso dalle precedenti stampa il numero
 			}
 		
